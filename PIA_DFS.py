@@ -56,6 +56,7 @@ for node in shortest_path:
 print("Tiempo: "+str(total))
 print("Valores: "+str(total2))
 
+# Maneja si tiene actividades requeridas/obligatorias
 """
 if set(required).issubset(set(shortest_path)):
     print(shortest_path)
